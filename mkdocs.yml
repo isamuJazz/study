@@ -1,0 +1,31 @@
+site_name: study
+# use_directory_urls: false
+
+nav:
+  - Home: index.md
+  - LINUC2: 
+    - dnsの基本: linuc2/dns.md
+
+not_in_nav: |
+  /notinclude.md
+
+theme:
+  features:
+    - navigation.tabs
+    - navigation.top
+    - toc.integrate
+    # - navigation.footer
+  name: material
+  palette:
+    primary: white
+  language: ja
+  font:
+    text: Noto Sans JP
+    code: Inconsolata
+
+markdown_extensions:
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format

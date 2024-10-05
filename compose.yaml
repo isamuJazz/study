@@ -1,0 +1,11 @@
+services:
+  app:
+    build: .
+    init: true
+    container_name: study
+    tty: true
+    working_dir: /app
+    volumes:
+      - ./:/app:cached # ホストの表示を信頼。パフォーマンス　中
+    ports:
+      - 8000:8000

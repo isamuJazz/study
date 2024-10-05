@@ -1,0 +1,23 @@
+{
+  "name": "study",
+  "dockerComposeFile": "../compose.yaml",
+  "service": "app",
+  "workspaceFolder": "/app",
+  "containerEnv": {},
+  "features": {},
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "files.autoSave": "afterDelay",
+        "editor.formatOnSave": true
+      },
+      "extensions": [
+        "ryu1kn.partial-diff",
+        "donjayamanne.githistory",
+        "eamodio.gitlens",
+        "mhutchie.git-graph"
+      ]
+    }
+  },
+  "postCreateCommand": "apt-get update && apt-get install -y git"
+}
