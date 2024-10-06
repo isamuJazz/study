@@ -5,6 +5,8 @@ nav:
   - Home: index.md
   - LINUC2: 
     - dnsの基本: linuc2/dns.md
+    - zoneファイル: linuc2/zone.md
+    - セキュリティ: linuc2/security.md
 
 not_in_nav: |
   /notinclude.md
