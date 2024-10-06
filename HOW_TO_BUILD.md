@@ -41,5 +41,5 @@ then, => localhost:8000
 # Deploy 
 
 ```
-mkdocs gh-deploy
+mkdocs gh-deploy --force
 ```
