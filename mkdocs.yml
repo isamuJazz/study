@@ -4,9 +4,14 @@ use_directory_urls: false
 nav:
   - Home: index.md
   - LINUC2: 
-    - dnsの基本: linuc2/dns.md
-    - zoneファイル: linuc2/zone.md
-    - セキュリティ: linuc2/security.md
+    - dnsの基本: 
+      - 基本: linuc2/dns.md
+      - zoneファイル: linuc2/zone.md
+      - セキュリティ: linuc2/security.md
+    - Webサーバー:
+      - Apache: linuc2/apache.md
+      - Nginx: linuc2/nginx.md
+
 
 not_in_nav: |
   /notinclude.md
