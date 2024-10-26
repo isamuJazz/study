@@ -11,6 +11,11 @@ nav:
     - Webサーバー:
       - Apache: linuc2/apache.md
       - Nginx: linuc2/nginx.md
+    - Mail:
+      - mail: linuc2/postfix.md
+    - Samba|NFS:
+      - Samba: linuc2/samba.md
+      - NFS: linuc2/nfs.md
 
 
 not_in_nav: |
