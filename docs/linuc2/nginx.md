@@ -9,6 +9,10 @@
 
 として機能する。
 
+## デーモン
+
+nginx
+
 ## 設定ファイル
 
 /etc/nginx/nginx.conf
