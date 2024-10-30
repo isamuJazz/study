@@ -4,6 +4,7 @@ use_directory_urls: false
 nav:
   - Home: index.md
   - LINUC2: 
+    - index: linuc2/index.md
     - dnsの基本: 
       - 基本: linuc2/dns.md
       - zoneファイル: linuc2/zone.md
@@ -18,6 +19,8 @@ nav:
       - NFS: linuc2/nfs.md
     - セキュリティ:
       - netfilter/iptables: linuc2/iptables.md
+      - ssh: linuc2/ssh.md
+      - vpn: linuc2/vpn.md
 
 
 not_in_nav: |
