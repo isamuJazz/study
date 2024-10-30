@@ -16,6 +16,8 @@ nav:
     - Samba|NFS:
       - Samba: linuc2/samba.md
       - NFS: linuc2/nfs.md
+    - セキュリティ:
+      - netfilter/iptables: linuc2/iptables.md
 
 
 not_in_nav: |
