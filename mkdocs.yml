@@ -3,6 +3,9 @@ use_directory_urls: false
 
 nav:
   - Home: index.md
+  - PAST:
+    - 概要: past/outline.md
+    - 環境: past/env.md
   - LINUC2: 
     - index: linuc2/index.md
     - dnsの基本: 
@@ -21,6 +24,9 @@ nav:
       - netfilter/iptables: linuc2/iptables.md
       - ssh: linuc2/ssh.md
       - vpn: linuc2/vpn.md
+  - ポエム:
+    - この時代に必要なもの: poem/need.md
+
 
 
 not_in_nav: |
