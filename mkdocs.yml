@@ -3,6 +3,8 @@ use_directory_urls: false
 
 nav:
   - Home: index.md
+  - DOP:
+    - 概要: dop/outline.md
   - PAST:
     - 概要: past/outline.md
     - 環境: past/env.md
