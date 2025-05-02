@@ -3,6 +3,11 @@ use_directory_urls: false
 
 nav:
   - Home: index.md
+  - 簿記: bookkeeping/index.md
+  - AI: 
+    - 試験概要: ai/outline.md
+    - 用語集: ai/glossary.md
+    - サービス: ai/services.md
   - DOP:
     - 概要: dop/outline.md
   - PAST:

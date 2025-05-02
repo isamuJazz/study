@@ -1,5 +1,5 @@
 [試験ガイド](https://d1.awsstatic.com/ja_JP/training-and-certification/docs-devops-pro/AWS-Certified-DevOps-Engineer-Professional_Exam-Guide.pdf)
-
+[AWS Certified DevOps Engineer - Professional](https://aws.amazon.com/jp/certification/certified-devops-engineer-professional/)
 ここに試験に役立つスキルビルダーなど揃っているのでまず上記にあるリンクを見ていけばよい。
 
 分野:
