@@ -3,41 +3,41 @@ use_directory_urls: false
 
 nav:
   - Home: index.md
+  - システムアーキテクト:
+      - シラバス: system-architect/index.md
+      - 要件定義概要: system-architect/requirements.md
+      - 流れ:
+          - ビジネス要求定義: system-architect/flow/business.md
   - 簿記: bookkeeping/index.md
-  - システムアーキテクト: 
-    - シラバス: system-architect/index.md
-    - 要件定義概要: system-architect/requirements.md
-  - AI: 
-    - 試験概要: ai/outline.md
-    - 用語集: ai/glossary.md
-    - サービス: ai/services.md
+  - AI:
+      - 試験概要: ai/outline.md
+      - 用語集: ai/glossary.md
+      - サービス: ai/services.md
   - DOP:
-    - 概要: dop/outline.md
+      - 概要: dop/outline.md
   - PAST:
-    - 概要: past/outline.md
-    - 環境: past/env.md
-  - LINUC2: 
-    - index: linuc2/index.md
-    - dnsの基本: 
-      - 基本: linuc2/dns.md
-      - zoneファイル: linuc2/zone.md
-      - セキュリティ: linuc2/security.md
-    - Webサーバー:
-      - Apache: linuc2/apache.md
-      - Nginx: linuc2/nginx.md
-    - Mail:
-      - mail: linuc2/postfix.md
-    - Samba|NFS:
-      - Samba: linuc2/samba.md
-      - NFS: linuc2/nfs.md
-    - セキュリティ:
-      - netfilter/iptables: linuc2/iptables.md
-      - ssh: linuc2/ssh.md
-      - vpn: linuc2/vpn.md
+      - 概要: past/outline.md
+      - 環境: past/env.md
+  - LINUC2:
+      - index: linuc2/index.md
+      - dnsの基本:
+          - 基本: linuc2/dns.md
+          - zoneファイル: linuc2/zone.md
+          - セキュリティ: linuc2/security.md
+      - Webサーバー:
+          - Apache: linuc2/apache.md
+          - Nginx: linuc2/nginx.md
+      - Mail:
+          - mail: linuc2/postfix.md
+      - Samba|NFS:
+          - Samba: linuc2/samba.md
+          - NFS: linuc2/nfs.md
+      - セキュリティ:
+          - netfilter/iptables: linuc2/iptables.md
+          - ssh: linuc2/ssh.md
+          - vpn: linuc2/vpn.md
   - ポエム:
-    - この時代に必要なもの: poem/need.md
-
-
+      - この時代に必要なもの: poem/need.md
 
 not_in_nav: |
   /notinclude.md
